@@ -1,8 +1,8 @@
 # skills
 
-Personal Claude Code agent skills library.
+Personal agent skills library.
 
-Skills are organized by functional category. Each skill has a `scope` — **global** skills work anywhere, **per-project** skills are intended to be installed in a specific project's `.claude/` directory.
+Skills are organized by functional category. Each skill has a `scope` — **global** skills work anywhere, **per-project** skills are intended to be installed in a specific project's agent config directory.
 
 ## Installation
 
@@ -78,6 +78,6 @@ source: https://github.com/original-author/repo/path  # omit if original work
 
 Guidelines:
 - Keep `SKILL.md` under ~100 lines. Split overflow into `REFERENCE.md`, `EXAMPLES.md`, or topic `.md` files in the same directory.
-- The `description` field is what Claude uses to decide when to load the skill — make it precise and trigger-driven.
+- The `description` field determines when the skill loads — make it precise and trigger-driven.
 - Add a `scripts/` subfolder only for deterministic, repeatable operations that would otherwise regenerate the same code each run.
 - When `source` is present, the skill is a personalized adaptation. The README credits the original; the `SKILL.md` content is the local version.
