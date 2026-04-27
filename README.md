@@ -12,6 +12,12 @@ Personal agent skills library.
 
 ## Knowledge
 
+- **[write-a-skill](write-a-skill/SKILL.md)** — Create new skills with proper structure, progressive disclosure, and bundled resources. Originally by [github.com/mattpocock/skills](https://github.com/mattpocock/skills/tree/main/write-a-skill).
+
+  ```
+  npx skills@latest add mattpocock/skills/write-a-skill
+  ```
+
 - **[ubiquitous-language](ubiquitous-language/SKILL.md)** — Extract a DDD-style glossary from the current conversation, flagging ambiguities and proposing canonical terms. Originally by [github.com/mattpocock/skills](https://github.com/mattpocock/skills/tree/main/ubiquitous-language).
 
   ```
