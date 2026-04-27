@@ -2,8 +2,6 @@
 
 Personal agent skills library.
 
-Skills have a `scope` — **global** skills work anywhere, **per-project** skills are intended to be installed in a specific project's agent config directory.
-
 ## Planning
 
 - **[grill-me](grill-me/SKILL.md)** — Get relentlessly interviewed about a plan or design until every branch of the decision tree is resolved. Originally by [github.com/mattpocock/skills](https://github.com/mattpocock/skills/tree/main/grill-me).
@@ -38,7 +36,6 @@ Skills live at `<skill-name>/SKILL.md`. Each `SKILL.md` starts with frontmatter:
 ---
 name: skill-name
 description: Use when… (≤1024 chars, third-person)
-scope: global          # global | per-project
 category: planning     # for README grouping only
 source: https://github.com/original-author/repo/path  # omit if original work
 ---
