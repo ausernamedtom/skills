@@ -6,7 +6,7 @@ Skills have a `scope` — **global** skills work anywhere, **per-project** skill
 
 ## Planning
 
-- **grill-me** — Get relentlessly interviewed about a plan or design until every branch of the decision tree is resolved.
+- **[grill-me](grill-me/SKILL.md)** — Get relentlessly interviewed about a plan or design until every branch of the decision tree is resolved. Originally by [mattpocock](https://github.com/mattpocock/skills/tree/main/grill-me).
 
   ```
   npx skills@latest add mattpocock/skills/grill-me
@@ -14,7 +14,7 @@ Skills have a `scope` — **global** skills work anywhere, **per-project** skill
 
 ## Development
 
-- **tdd** — Test-driven development with a red-green-refactor loop. Builds features one vertical slice at a time.
+- **[tdd](tdd/SKILL.md)** — Test-driven development with a red-green-refactor loop. Builds features one vertical slice at a time. Originally by [mattpocock](https://github.com/mattpocock/skills/tree/main/tdd).
 
   ```
   npx skills@latest add mattpocock/skills/tdd
