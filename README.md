@@ -21,6 +21,8 @@ npx skills@latest add ausernamedtom/skills/grill-me
 
 | Skill | Category | Scope | Description | Source |
 |-------|----------|-------|-------------|--------|
+| [grill-me](grill-me/SKILL.md) | planning | global | Relentlessly interviews you about a plan or design until reaching shared understanding | [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/grill-me) |
+| [tdd](tdd/SKILL.md) | development | global | Red-green-refactor cycle for building features with behavior-focused tests | [mattpocock/skills](https://github.com/mattpocock/skills/tree/main/tdd) |
 
 ---
 
