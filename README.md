@@ -2,76 +2,38 @@
 
 Personal agent skills library.
 
-Skills are organized by functional category. Each skill has a `scope` — **global** skills work anywhere, **per-project** skills are intended to be installed in a specific project's agent config directory.
+Skills have a `scope` — **global** skills work anywhere, **per-project** skills are intended to be installed in a specific project's agent config directory.
 
 ## Installation
 
 ```bash
-npx skills@latest add tomhofman/skills/<category>/<skill-name>
+npx skills@latest add ausernamedtom/skills/<skill-name>
 ```
 
 Example:
 ```bash
-npx skills@latest add tomhofman/skills/planning/grill-me
+npx skills@latest add ausernamedtom/skills/grill-me
 ```
 
 ---
 
-## Communication
+## Skills
 
-> Tone, output style, and compression.
-
-| Skill | Scope | Description | Source |
-|-------|-------|-------------|--------|
-
----
-
-## Planning
-
-> Design reviews, PRDs, architecture decisions.
-
-| Skill | Scope | Description | Source |
-|-------|-------|-------------|--------|
-
----
-
-## Development
-
-> TDD, code review, refactoring, security.
-
-| Skill | Scope | Description | Source |
-|-------|-------|-------------|--------|
-
----
-
-## Knowledge
-
-> Memory management, documentation, writing.
-
-| Skill | Scope | Description | Source |
-|-------|-------|-------------|--------|
-
----
-
-## Tooling
-
-> Git hooks, CI, project scaffolding.
-
-| Skill | Scope | Description | Source |
-|-------|-------|-------------|--------|
+| Skill | Category | Scope | Description | Source |
+|-------|----------|-------|-------------|--------|
 
 ---
 
 ## Contributing a Skill
 
-Skills live at `<category>/<skill-name>/SKILL.md`. Each `SKILL.md` starts with frontmatter:
+Skills live at `<skill-name>/SKILL.md`. Each `SKILL.md` starts with frontmatter:
 
 ```yaml
 ---
 name: skill-name
 description: Use when… (≤1024 chars, third-person)
 scope: global          # global | per-project
-category: communication
+category: planning     # for README grouping only
 source: https://github.com/original-author/repo/path  # omit if original work
 ---
 ```
