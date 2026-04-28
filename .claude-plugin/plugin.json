@@ -1,0 +1,9 @@
+{
+  "name": "ausernamedtom-skills",
+  "skills": [
+    "./grill-me",
+    "./grill-with-docs",
+    "./tdd",
+    "./write-a-skill"
+  ]
+}
