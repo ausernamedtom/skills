@@ -12,12 +12,6 @@ Personal agent skills library.
 
 ## Knowledge
 
-- **[validate-skill](validate-skill/SKILL.md)** — Tests a skill's trigger accuracy and output alignment by automatically generating and running 3-5 test cases.
-
-  ```
-  npx skills@latest add ausernamedtom/skills/validate-skill
-  ```
-
 - **[write-a-skill](write-a-skill/SKILL.md)** — Create new skills with proper structure, progressive disclosure, and bundled resources. Originally by [github.com/mattpocock/skills](https://github.com/mattpocock/skills/tree/main/write-a-skill).
 
   ```
