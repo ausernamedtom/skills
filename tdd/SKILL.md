@@ -2,7 +2,7 @@
 name: tdd
 description: Implement features using red-green-refactor cycle. Use when building new functionality with tests, practicing test-driven development, or when the user asks to "do TDD", "write tests first", or "use red-green-refactor".
 category: development
-source: https://github.com/mattpocock/skills/tree/main/tdd
+source: https://github.com/mattpocock/skills
 ---
 
 # Test-Driven Development
